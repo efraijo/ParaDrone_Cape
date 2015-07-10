@@ -2,7 +2,7 @@
 #ifndef EM506_H
 #define EM506_H
 // nmea protocol lib
-#include <nmea/nmea.h>
+#include "nmea/nmea.h"
 
 // nmea gps data entry structure
 nmeaINFO em506_info;
