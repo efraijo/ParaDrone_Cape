@@ -142,7 +142,7 @@ int task_sample_imu()
 			task_sample_counter = 0;	
 			//em506_read();
 			if(log_flag!=0)
-				//log_write_entry_g(&log_buffer_g);
+				log_write_entry_g(&log_buffer_g);
 		}
 
 		
